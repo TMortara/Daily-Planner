@@ -32,15 +32,11 @@
   // TODO: Add code to display the current date in the header of the page.
 
 $(function() {
-  var currentTime = dayjs().hour();
-  var currentDate = dayjs().format('dddd, MMMM D, YYYY h:mm:ss A');
+  // var currentTime = dayjs().hour();
+  var currentDate = dayjs().format('dddd, MMMM D, YYYY');
   $('#currentDay').text(currentDate);
   getStorage();
-
-  
-
-  // $('button').on('click',)
-
+  setBackgroundColor();
 });
 
 var timeblocks = document.getElementsByTagName("textarea");
@@ -75,8 +71,23 @@ for (let i = 0; i < saveButton.length; i++) {
   })
 }
 
+function setBackgroundColor() {
+  var currentHour = dayjs().hour();
+  $('div.time-block').each(function() {
+    var id = this.id;
+    var splitId = id.split("-");
+    var parseId = parseInt(splitId[1]);
+    if (parseId < currentHour) {
+      $(this).removeClass('future');
+      $(this).addClass('past');
+      $(this).children('textarea').attr('readonly', true);
+    } else if (parseId === currentHour) {
+      $(this).removeClass('future');
+      $(this).addClass('present');
+    }
+  });
+}
 
-//Set current time
 
 
 
