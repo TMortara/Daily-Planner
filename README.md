@@ -4,7 +4,7 @@ The Daily Planner is an organizational tool to help you keep track of your busy 
 ## Deployed Portfolio
 
 ## How to use the Daily Planner
-1. Select your preferred time block.  To help keep you organized, time blocks in the past will show in grey, while present time blocks will show in red and future time blocks will show in green. 
+1. Select your preferred time block.  To help keep you organized, time blocks in the past will show in tan, while present time blocks will show in mauve and future time blocks will show in light green. 
 2. Enter event and click the 'Save' button at the end of the text block
 3. Continue entering events as needed, but make sure to click the save button on each time block. Events entered in time blocks will remain in your Daily Planner until you decide to delete the event.
 ## Built With
