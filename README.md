@@ -24,5 +24,4 @@ None
 ## License
 None
 ## Screenshots
-![_Users_tracymortara_UTA-Bootcamp_Challenges_Challenge-5_Daily-Planner_index html](https://user-images.githubusercontent.com/107971753/204170817-478d5d0b-711c-44bb-ac7d-0d3c4fef4b72.png)
 ![_Users_tracymortara_UTA-Bootcamp_Challenges_Challenge-5_Daily-Planner_index html (1)](https://user-images.githubusercontent.com/107971753/204344693-c1c6903a-b08f-4c27-9397-b6a79c29b69d.png)
