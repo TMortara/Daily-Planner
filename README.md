@@ -2,7 +2,7 @@
 ## Description
 The Daily Planner is an organizational tool to help you keep track of your busy 9-5 schedule. This planner stores your events until you decide to delete the event.  In addition to storing your events, the planner also keeps track of the time and color codes time blocks so you always know where you are throughout your day.
 ## Deployed Portfolio
-
+https://tmortara.github.io/Daily-Planner/
 ## How to use the Daily Planner
 1. Select your preferred time block.  To help keep you organized, time blocks in the past will show in tan, while present time blocks will show in mauve and future time blocks will show in light green. 
 2. Enter event and click the 'Save' button at the end of the text block
